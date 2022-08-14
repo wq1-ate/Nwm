@@ -97,20 +97,6 @@ typedef union
 }NWM_RX_EVENT_U;
 
 
-typedef struct
-{
-    CAN_NWM_IND_NET_STAT_E  e_NET_STAT;
-    uint16                  u16_SYS_CONF;
-    CAN_NWM_IND_CONTROLLER_STATUS_E     e_CONTROLLER_STATUS;
-}s_nwm_ind;
-
-typedef struct
-{
-    CAN_NWM_REQ_CMD_E      e_NET_CMD;
-    boolean                b_LOCAL_ACTIVE_LOADS;
-    boolean                b_CURR_FAIL_STATUS;
-    boolean                b_KEY_STATUS;
-}s_nwm_req;
 
 typedef struct
 {
